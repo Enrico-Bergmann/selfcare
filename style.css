@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+h3 {
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+
+figcaption {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 2vh;
+}
+
+span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #5CA720;
+    font-size: 3vh;
+}
+
+button {
+    width: 8.5vw;
+    height: 6vh;
+    background-color: #5CA720;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5vh;
+    font-weight: 900;
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+button:hover {
+    background-color: #512200BD;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+footer {
+    margin-left: 7vh;
+    margin-right: 7vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 17vh;
+    width: 20vw;
+}
+
+
+input {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 2.2vh;
+    border: solid 1px #D9D9D9;
+    width: 15vw;
+    height: 6vh;
+    text-align: center;
+}
+
+footer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.header-icone0 {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-icone1 {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+.logo-self {
+    height: 3vh;
+}
+
+.header-icone2 {
+    width: 9vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+.icone-header {
+    height: 2.5vh;
+}
+
+.banner {
+    width: 100%;
+}
+
+.promocao-produto {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+.promocao {
+    font-size: 2.5vh;
+    font-weight: bolder;
+    margin-left: 5vw;
+}
+
+.produtos {
+    font-size: 2vh;
+    margin-right: 5.2vw;
+}
+
+.linha-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+} 
+
+.img-hover {
+    height: 35vh;
+    width: 17vw;
+}
+
+.img-hover:hover{
+    background-color: #5CA720;
+    opacity: 0.5;
+}
+
+.card {
+    width: 20vw;
+    height: 61vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 5%;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 52vh;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.newsletter {
+    width: 24vw;
+    height: 11vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.newsletter-titulo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 2.2vh;
+}
+
+.inscrever {
+    background-color: #5CA720;
+    border-radius:0px 5px 5px 0px;
+    box-shadow: none;
+    width: 8vw;
+}
+
+.footer-redes-pagamento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    width: 4vw;
+    margin-bottom: 4vh;
+}
+
+.pagamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 9vw;
+    margin-bottom: 4vh;
+}
+
+.icone-social {
+    height: 3vh;
+}
+
+.icone-master {
+    height: 4vh;
+}
+
+.icone-paypal {
+    height: 3vh;
+}
+
+.icone-visa {
+    height: 2vh;
+}
+
+
+@media (max-width: 420px) {
+    
+    span {
+        font-size: 3vh;
+    }
+
+    button {
+        width: 20vw;
+        height: 4vh;
+        border-radius: 15px;
+        font-size: 2.5vh;
+        font-weight: 600;
+    }
+
+    footer {
+        margin-left: 4vh;
+        margin-right: 4vh;
+        height: 75vh;
+    }
+
+    nav {
+        margin-top: 2vh;
+        width: 70vw;
+        height: 23vh;
+    }
+
+    a {
+        width: 60vw;
+        font-size: 2.5vh;
+    }
+
+    input {
+        width: 89vw;
+        height: 8vh;
+        display: flex;
+        text-align: left;
+    }
+
+    .header-icone1 {
+        margin-left: 6vw;
+        
+    }
+
+    .header-icone2 {
+        margin-right: 6vw;
+    }
+
+    .linha-produtos {
+        justify-content: space-between;
+        flex-direction: column;
+        
+      }
+    
+    .linha-produtos img {
+        width: 40vw;
+      }
+    
+    .img-hover {
+        height: 71%;
+        width: 97%;
+    }
+
+    .card {
+        width: 41vw;
+        height: 42vh;  
+        margin-right: 3vw;
+        margin-left: 3vw;
+        margin-bottom: 5%;
+     }
+
+    .card-info {
+        font-size: 3vw;
+        height: 36vh;
+    }
+
+    .footer-link {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 55vh;
+    }
+
+    .newsletter {
+        width: 88vw;
+        height: 25vh;
+        align-items: flex-start;
+    }
+
+    .newsletter-titulo {
+        text-align: left;
+        font-size: 2.5vh;
+    }
+
+    .inscrever {
+        width: 89vw;
+        height: 8vh;
+        border-radius: 2px;
+        margin-top: 2vh;
+    }
+
+    .redes-sociais {
+        width: 10vw;
+        margin: 0;
+    }
+    
+    .footer-redes-pagamento {
+        margin-bottom: 4vh;
+        height: 7vh;
+    }
+
+    .pagamento {
+        width: 24vw;
+        margin-bottom: 0vh;
+    }
+  }
